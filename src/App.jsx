@@ -1,12 +1,12 @@
 import React from 'react'
-import Home from './components/home'
+import Signup from './components/Signup'
 function App() {
   
 
   return (
     <>
       <div>
-        <Home/>        
+        <Signup/>        
       </div>
 
     
