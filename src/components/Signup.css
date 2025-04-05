@@ -1,0 +1,94 @@
+/* Signup.css */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e7fdb, #85aaff);
+  }
+  
+  .signup-card {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .signup-image {
+    flex: 1;
+    background-image: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85c?auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+  
+  .signup-form {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+  }
+  
+  .signup-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .message-alert {
+    color: green;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-link-text {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link-text:hover {
+    text-decoration: underline;
+  }
+  
